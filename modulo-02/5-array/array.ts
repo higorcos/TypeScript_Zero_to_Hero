@@ -44,6 +44,3 @@ const listItens = (linguagem:Array<string>)=>{ // linguagem: string[]
 }
  listItens(linguagemArray)
  console.log('ww')
-
-
-
