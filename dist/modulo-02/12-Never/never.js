@@ -12,3 +12,5 @@ const loopInfinito = () => {
         console.log('oi,Develop');
     }
 };
+const algumaCoisaNull = null;
+console.log(algumaCoisaNull);
