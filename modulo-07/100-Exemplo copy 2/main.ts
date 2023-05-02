@@ -1,10 +1,12 @@
 {/*
 
+       
 
 */}
 export {}
 //==> Exemplo 01 
 console.log(`\n\t==> Exemplo 01\n`);
+
 
 
 
