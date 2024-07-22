@@ -2,6 +2,8 @@
         typeof == tipos padrão da liguagem
        instanceof == tipos avançados e criados pelo dev
 
+       in == 
+
 */}
 export {}
 //==> Exemplo 01 - typeof
@@ -105,10 +107,10 @@ const voar = (grupo: string)=>{
 const mover = (animal:Animal)=>{
     if('tipoAgua' in animal){
         nadar(animal.grupo);
-        // nadar((animal as Peixe).grupo); // Convertendo par o tipo AVE
+        // nadar((animal as Peixe).grupo); // Convertendo para o tipo AVE
     }else if('tamanhoBico' in animal){
          // nadar(animal.grupo);
-         voar((animal as Ave).grupo); // Convertendo par o tipo  PEIXE
+         voar((animal as Ave).grupo); // Convertendo para o tipo  PEIXE
     }
 }
 
